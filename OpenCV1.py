@@ -5,6 +5,7 @@ img = cv2.imread("img/chess.jpg",0)# 0 for grayColor 1 for colored Image and -1 
 img2=cv2.resize(img,(0,0),fx=0.5,fy=0.5)
 img2 = cv2.rotate(img2,cv2.cv2.ROTATE_90_CLOCKWISE)
 npArray = np.array([])
+npArray = img
 # print(img.show)
 print(img[0][0])
 for i in range(0,400):
